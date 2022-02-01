@@ -1,0 +1,54 @@
+* {
+ box-sizing: border-box;
+}
+
+.gallery-img {
+ display: none
+}
+
+.active {
+ display: block;
+}
+
+.img-g{
+ width: 100%;
+ display: flex;
+ justify-content: center; 
+ align-items: center;
+}
+
+.btns {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.btn {
+ background-color: #fff000;
+ color: #0074d9;
+ font-size: 1.25rem;
+ padding: .3rem 1.25rem;
+ margin: 0 0 0 .2rem;
+ border-color: transparent;
+ border-radius: 0.3rem;
+ cursor: pointer;
+}
+
+button:active {
+ background-color: #d1c413;
+}
+
+.btn:disabled {
+ color: tomato;
+ background-color: #666;
+ cursor: not-allowed;
+}
+
+.swiper-slide {
+ text-align: center;
+}
+
+img {
+ height: 37.5rem;
+}

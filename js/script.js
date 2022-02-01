@@ -32,3 +32,7 @@ listen(document, 'mouseup touchend')
       damping: 10
     }).start(ballXY);
   });
+
+const person = {name: "Daniel", profession:"engineer"}
+const {profession} = person;
+console.log(profession);
